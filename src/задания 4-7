@@ -1,0 +1,51 @@
+\\ задание 4
+public class Main {
+    public static void main(String[] args) {
+    double total = 15000;
+    int i=1;
+    for (;total<=12000000;) {
+        System.out.println("в месяце "+i+" накоплено "+total+" рублей");
+        total = total*1.07;
+        i++;}
+        System.out.println("в месяце "+i+" накоплено "+total+" рублей");
+
+    }}
+\\задание 5
+public class Main {
+    public static void main(String[] args) {
+        double total = 15000;
+        int i=1;
+        for (;total<=12000000;) {
+            if (i%6==0) {
+            System.out.println("в месяце "+i+" накоплено "+total+" рублей");}
+            total = total*1.07;
+            i++;}
+        System.out.println("в месяце "+i+" накоплено "+total+" рублей");
+
+
+    }}
+\\задание 6
+public class Main {
+    public static void main(String[] args) {
+        double total = 15_000;
+        double i=1;
+        for (;i<=108;) {
+
+            if (i%6==0) {
+                double a = i/12;
+                if (a==1) { System.out.println("За "+a+" год накоплено "+total+" рублей");} else if (a < 5) {
+                System.out.println("За "+a+" года накоплено "+total+" рублей");} else {
+                    System.out.println("За "+a+" лет накоплено "+total+" рублей");
+                }}
+            total = total*1.07;
+            i++;}
+       }}
+Задание 7
+public class Main {
+    public static void main(String[] args) {
+int t = 4;
+for (;t<=31;t=t+7) {
+    System.out.println("Сегодня пятница, "+t+" число, сдайте отчет");
+}
+    }
+    }

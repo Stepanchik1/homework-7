@@ -1,0 +1,35 @@
+\\ Задание 1
+public class Main {
+    public static void main(String[] args) {
+    int total = 0;
+        int i=0;
+for (; total<2459000; i++) {
+total=total+15000;
+}
+        System.out.println(i+" месяцев, конечная сумма "+total);
+    }
+}
+\\ Задание 2
+public class Main {
+    public static void main(String[] args) {
+        int t=0;
+while (t<10){
+    t++;
+    System.out.print(t+" ");}
+t++;
+     System.out.println("\n");
+        while (t>1){
+            t--;
+            System.out.print(t+" ");}
+
+    }}
+\\ задание 3
+public class Main {
+    public static void main(String[] args) {
+int total = 12_000_000;
+for (int i = 10; i>0; i-- ) {
+    total= total+(total/1000*9);
+    }
+        System.out.println(total);
+    }
+}

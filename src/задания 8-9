@@ -1,0 +1,24 @@
+public class Main {
+    public static void main(String[] args) {
+       int com=1822;
+       while (com<=2022) {
+           System.out.println(com);
+           com=com+79;
+        }
+        System.out.println("в следующий раз комета будет в "+com+" году ");
+
+    }}
+
+
+public class Main {
+    public static void main(String[] args) {
+int b = 1;
+int a = 1;
+for (;a<20;b++) {
+    a=2*b;
+    System.out.println(2+"*"+b+"="+a);
+    }
+
+    }
+    }
+
